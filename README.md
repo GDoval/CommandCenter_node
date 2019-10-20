@@ -4,6 +4,7 @@
 
 1. [Dev enviroment](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#dev-enviroment)
 2. [Trello](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#trello)
+3. [Enable Compass]
 
 ## Dev enviroment
 
@@ -20,3 +21,14 @@
 ## Trello
 
 https://trello.com/b/OhmIAuBd/command-center
+
+
+## Enable Compass
+
+Some of the features of the app are based on Ruby Compass. Several steps were needed when I tried to install it in WSL, so for future reference here they are:
+
+1. In order to install Ruby first we need to disable IPv6 in Ubuntu. For that, we need to sudo edit the file `/etc/gai.conf` and uncomment the line `# For sites which prefer IPv4 connections change the last line to
+#precedence ::ffff:0:0/96 100` as discussed in this [SO response](https://askubuntu.com/questions/32298/prefer-a-ipv4-dns-lookups-before-aaaaipv6-lookups/38468#38468)
+2. Next, we need to install Ruby `$ gem update --system` and perhaps also run `sudo gem rubygems-update`
+3. Then we install Compass by running `sudo apt-get install ruby-compass`
+4. The Sass files are stored in the directory future. Inside this directory we create the Sass files and then run `compass compile`to generate the CSS files that are to be included in the HTML page.
