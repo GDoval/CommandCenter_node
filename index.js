@@ -4,7 +4,7 @@ const port = 3000
 
 app.use("/java", express.static(__dirname + '/java'));
 
-app.use('/styles', express.static(__dirname + '/styles'));
+app.use('/future/stylesheets', express.static(__dirname + '/future/stylesheets'));
 
 
 app.get('/', function (req, res, next) {
