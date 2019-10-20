@@ -4,7 +4,7 @@
 
 1. [Dev enviroment](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#dev-enviroment)
 2. [Trello](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#trello)
-3. [Enable Compass]
+3. [Enable Compass](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#enable-compass)
 
 ## Dev enviroment
 
