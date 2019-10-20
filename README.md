@@ -3,7 +3,7 @@
 ## Index
 
 1. [Dev enviroment](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#dev-enviroment)
-2. [Trello]
+2. [Trello](https://github.com/GDoval/CommandCenter_node/blob/master/README.md#trello)
 
 ## Dev enviroment
 
