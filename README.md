@@ -16,7 +16,7 @@
 `npx babel --watch [SOURCE] --out-dir . --presets [PATH/TO/SCRIPTS]`
 6. Run `npm install terser` to minify JS files as per this [guide](https://gist.github.com/gaearon/42a2ffa41b8319948f9be4076286e1f3) 
 7. Add the scripts tags to the main HTML file to enable [React](https://reactjs.org/docs/add-react-to-a-website.html)
-8. Start the server by running `node index.js`
+8. Start the server by running `node index.js`. The page is sent to http://localhost:3000/
 
 ## Trello
 
